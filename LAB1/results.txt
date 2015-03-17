@@ -1,0 +1,199 @@
+Iteration with array size: 10000
+time taken to bubble sort: 173
+time taken to selection sort: 161
+time taken to insertion sort: 150
+
+Iteration with array size: 20000
+time taken to bubble sort: 624
+time taken to selection sort: 617
+time taken to insertion sort: 621
+
+Iteration with array size: 30000
+time taken to bubble sort: 1413
+time taken to selection sort: 1420
+time taken to insertion sort: 1409
+
+Iteration with array size: 40000
+time taken to bubble sort: 2524
+time taken to selection sort: 2564
+time taken to insertion sort: 2527
+
+Iteration with array size: 50000
+time taken to bubble sort: 3971
+time taken to selection sort: 3973
+time taken to insertion sort: 3966
+
+Iteration with array size: 60000
+time taken to bubble sort: 5708
+time taken to selection sort: 5717
+time taken to insertion sort: 5697
+
+Iteration with array size: 70000
+time taken to bubble sort: 7814
+time taken to selection sort: 7808
+time taken to insertion sort: 7822
+
+Iteration with array size: 80000
+time taken to bubble sort: 10176
+time taken to selection sort: 10175
+time taken to insertion sort: 10175
+
+Iteration with array size: 90000
+time taken to bubble sort: 12995
+time taken to selection sort: 12987
+time taken to insertion sort: 12959
+
+Iteration with array size: 100000
+time taken to bubble sort: 15916
+time taken to selection sort: 15943
+time taken to insertion sort: 16046
+
+Iteration with array size: 110000
+time taken to bubble sort: 19505
+time taken to selection sort: 19366
+time taken to insertion sort: 19367
+
+Iteration with array size: 120000
+time taken to bubble sort: 23081
+time taken to selection sort: 23006
+time taken to insertion sort: 23078
+
+Iteration with array size: 130000
+time taken to bubble sort: 27050
+time taken to selection sort: 26956
+time taken to insertion sort: 27111
+
+Iteration with array size: 140000
+time taken to bubble sort: 31350
+time taken to selection sort: 31366
+time taken to insertion sort: 31374
+
+Iteration with array size: 150000
+time taken to bubble sort: 35942
+time taken to selection sort: 36028
+time taken to insertion sort: 36023
+
+Iteration with array size: 160000
+time taken to bubble sort: 40960
+time taken to selection sort: 41057
+time taken to insertion sort: 40887
+
+Iteration with array size: 170000
+time taken to bubble sort: 46282
+time taken to selection sort: 46387
+time taken to insertion sort: 46230
+
+Iteration with array size: 180000
+time taken to bubble sort: 51777
+time taken to selection sort: 51767
+time taken to insertion sort: 52545
+
+Iteration with array size: 190000
+time taken to bubble sort: 57599
+time taken to selection sort: 57885
+time taken to insertion sort: 57780
+
+Iteration with array size: 200000
+time taken to bubble sort: 64051
+time taken to selection sort: 63879
+time taken to insertion sort: 63872
+
+Iteration with array size: 210000
+time taken to bubble sort: 70862
+time taken to selection sort: 72899
+time taken to insertion sort: 70547
+
+Iteration with array size: 220000
+time taken to bubble sort: 77481
+time taken to selection sort: 82134
+time taken to insertion sort: 77990
+
+Iteration with array size: 230000
+time taken to bubble sort: 85006
+time taken to selection sort: 87629
+time taken to insertion sort: 93520
+
+Iteration with array size: 240000
+time taken to bubble sort: 92388
+time taken to selection sort: 92864
+time taken to insertion sort: 92191
+
+Iteration with array size: 250000
+time taken to bubble sort: 99707
+time taken to selection sort: 99073
+time taken to insertion sort: 100143
+
+Iteration with array size: 260000
+time taken to bubble sort: 108474
+time taken to selection sort: 107844
+time taken to insertion sort: 109328
+
+Iteration with array size: 270000
+time taken to bubble sort: 116733
+time taken to selection sort: 117017
+time taken to insertion sort: 116769
+
+Iteration with array size: 280000
+time taken to bubble sort: 125004
+time taken to selection sort: 125229
+time taken to insertion sort: 125247
+
+Iteration with array size: 290000
+time taken to bubble sort: 134714
+time taken to selection sort: 134315
+time taken to insertion sort: 134395
+
+Iteration with array size: 300000
+time taken to bubble sort: 143183
+time taken to selection sort: 143366
+time taken to insertion sort: 143303
+
+Iteration with array size: 310000
+time taken to bubble sort: 153994
+time taken to selection sort: 153058
+time taken to insertion sort: 153578
+
+Iteration with array size: 320000
+time taken to bubble sort: 163721
+time taken to selection sort: 163467
+time taken to insertion sort: 163637
+
+Iteration with array size: 330000
+time taken to bubble sort: 174074
+time taken to selection sort: 173761
+time taken to insertion sort: 174006
+
+Iteration with array size: 340000
+time taken to bubble sort: 184289
+time taken to selection sort: 183994
+time taken to insertion sort: 184125
+
+Iteration with array size: 350000
+time taken to bubble sort: 196246
+time taken to selection sort: 196252
+time taken to insertion sort: 195091
+
+Iteration with array size: 360000
+time taken to bubble sort: 206405
+time taken to selection sort: 206614
+time taken to insertion sort: 205951
+
+Iteration with array size: 370000
+time taken to bubble sort: 218225
+time taken to selection sort: 218983
+time taken to insertion sort: 218033
+
+Iteration with array size: 380000
+time taken to bubble sort: 228909
+time taken to selection sort: 229642
+time taken to insertion sort: 229820
+
+Iteration with array size: 390000
+time taken to bubble sort: 242489
+time taken to selection sort: 242570
+time taken to insertion sort: 243803
+
+Iteration with array size: 400000
+time taken to bubble sort: 255258
+time taken to selection sort: 258016
+time taken to insertion sort: 259908
