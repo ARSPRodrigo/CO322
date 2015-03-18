@@ -4,6 +4,6 @@
 public class StudentsTree {
 
     public static void main(String [] args){
-        
+
     }
 }
