@@ -2,6 +2,8 @@
  * Created by Prasanna on 3/18/2015.
  */
 
+import java.util.Random;
+
 public class BTree<T extends Comparable<T>>{
 
     private BTreeNode<T> rootNode;
@@ -103,20 +105,18 @@ public class BTree<T extends Comparable<T>>{
         }
     }
 
-
-
-
-
-
     public static void main(String [] args) {
 
-        int max = 100;
+        int limit = 100;
 
-        BTree<Integer> t = new BTree<Integer>();
+        BTree<Double> t = new BTree<Double>();
 
-        int random=0;
-        for(int i=0; i < max; i++) {
-            random = (int)(Math.random() * 100);
+        double random=0;
+        double min = 2;
+        double max = 4;
+        for(int i=0; i < limit; i++) {
+            Random r = new Random();
+            random = (Math.random() * 4);
             t.insert(random);
         }
         t.in_order();
