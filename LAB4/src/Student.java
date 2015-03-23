@@ -64,8 +64,7 @@ public class Student implements Comparable<Student> {
 
     @Override
     public String toString(){
-        BTree<Course> thisTree = this.getCourseBTree();
-        return this.getStudent()+" "+this.getGPA()+" "+thisTree.toString();
+        return this.getStudent()+" "+this.getGPA();
     }
 }
 
