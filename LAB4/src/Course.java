@@ -5,17 +5,17 @@ import java.util.Random;
  */
 public class Course implements Comparable<Course> {
 
-    String courseName;
-    double gpa;
+    private String courseName;
+    private double gpa;
 
-    public Course(String name){
+    public Course(String name, double gpa){
 
         double rangeMin = 2;
         double rangeMax = 4;
 
         this.courseName = name;
         Random r = new Random();
-        this.gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        this.gpa = gpa;//(double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
     }
 
     public String getCourseName(){
