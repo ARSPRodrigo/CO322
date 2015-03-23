@@ -111,12 +111,12 @@ public class BTree<T extends Comparable<T>>{
 
         BTree<Double> t = new BTree<Double>();
 
-        double random=0;
-        double min = 2;
-        double max = 4;
+        double random = 0;
+        double rangeMin = 2;
+        double rangeMax = 4;
         for(int i=0; i < limit; i++) {
             Random r = new Random();
-            random = (Math.random() * 4);
+            random = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
             t.insert(random);
         }
         t.in_order();
