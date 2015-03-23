@@ -107,8 +107,7 @@ public class BTree<T extends Comparable<T>>{
 
     public static void main(String [] args) {
 
-        int limit = 100;
-
+        int limit = 6;
         BTree<Double> t = new BTree<Double>();
 
         double random = 0;
