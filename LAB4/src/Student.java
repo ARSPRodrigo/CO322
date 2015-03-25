@@ -1,8 +1,8 @@
-import java.util.Random;
-
 /*
  * Created by Prasanna on 3/23/2015.
  */
+import java.util.Random;
+
 public class Student implements Comparable<Student> {
     private String student;
     private BTree<Course> courseBTree = new BTree<Course>();
