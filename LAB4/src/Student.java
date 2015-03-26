@@ -10,28 +10,34 @@ public class Student implements Comparable<Student> {
 
     public Student(String name){
         this.student = name;
-
-        double rangeMin = 2;
-        double rangeMax = 4;
         double calc;
-        Random r = new Random();
 
-        double gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        int random=0;
+
+        Credit get = new Credit();
+
+        random = (int)(Math.random() * 100);
+        double gpa = get.getCredit(random);
         calc = gpa;
         Course CO321 = new Course("CO321",gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        random = (int)(Math.random() * 100);
+        gpa = get.getCredit(random);
         calc += gpa;
         Course CO322 = new Course("CO322",gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        random = (int)(Math.random() * 100);
+        gpa = get.getCredit(random);
         calc += gpa;
         Course CO323 = new Course("CO323",gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        random = (int)(Math.random() * 100);
+        gpa = get.getCredit(random);
         calc += gpa;
         Course CO324 = new Course("CO324",gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        random = (int)(Math.random() * 100);
+        gpa = get.getCredit(random);
         calc += gpa;
         Course CO325 = new Course("CO325",gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        random = (int)(Math.random() * 100);
+        gpa = get.getCredit(random);
         calc += gpa;
         Course EE386 = new Course("EE386",gpa);
 
@@ -64,7 +70,8 @@ public class Student implements Comparable<Student> {
 
     @Override
     public String toString(){
-        return this.getStudent()+" "+this.getGPA();
+        this.getCourseBTree().in_C_order();
+        return this.getStudent()+" "+this.getGPA()+" "+BTree.courses+"\n";
     }
 }
 

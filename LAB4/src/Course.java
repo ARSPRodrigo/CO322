@@ -10,12 +10,8 @@ public class Course implements Comparable<Course> {
 
     public Course(String name, double gpa){
 
-        double rangeMin = 2;
-        double rangeMax = 4;
-
         this.courseName = name;
-        Random r = new Random();
-        this.gpa = gpa;//(double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
+        this.gpa = gpa;
     }
 
     public String getCourseName(){
