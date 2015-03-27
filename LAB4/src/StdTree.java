@@ -52,15 +52,6 @@ public class StdTree {
         for(String x:students){
             studentBTree.insert(new Student(x));
         }
-        /*Student s1 = new Student("aaaa");
-        Student s2 = new Student("bbbb");
-        Student s3 = new Student("cccc");
-        Student s4 = new Student("dddd");
-
-        studentBTree.insert(s1);
-        studentBTree.insert(s2);
-        studentBTree.insert(s3);
-        studentBTree.insert(s4);*/
 
         studentBTree.in_order();
     }
