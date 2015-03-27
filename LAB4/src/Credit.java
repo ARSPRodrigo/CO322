@@ -11,6 +11,6 @@ public class Credit {
         else if (marks >= 55 && marks < 60) return 2.3;
         else if (marks >= 50 && marks < 55) return 3.0;
         else if (marks >= 45 && marks < 50) return 1.7;
-        else return 1.7;
+        else return 0;
     }
 }

@@ -12,30 +12,14 @@ public class StdTree {
 
         BTree<Course> courseBTree = new BTree<Course>();
 
-        double rangeMin = 2;
-        double rangeMax = 4;
-        Random r = new Random();
         String [] courses = {"CO321","CO322","CO323","CO324","CO325","EE386"};
 
-        double gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
-        Course CO321 = new Course(courses[0],gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
-        Course CO322 = new Course(courses[1],gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
-        Course CO323 = new Course(courses[2],gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
-        Course CO324 = new Course(courses[3],gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
-        Course CO325 = new Course(courses[4],gpa);
-        gpa = (double) Math.round((rangeMin + (rangeMax - rangeMin) * r.nextDouble())*100)/100;
-        Course EE386 = new Course(courses[5],gpa);
-
-        courseBTree.insert(CO321);
-        courseBTree.insert(CO322);
-        courseBTree.insert(CO323);
-        courseBTree.insert(CO324);
-        courseBTree.insert(CO325);
-        courseBTree.insert(EE386);
+        Credit GPA = new Credit();
+        int random = 0;
+        for(int i=0; i < courses.length; i++) {
+            random = (int)(Math.random() * 100);
+            courseBTree.insert(new Course(courses[i],GPA.getCredit(random)));
+        }
 
         //courseBTree.in_order();
 
