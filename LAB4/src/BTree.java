@@ -118,7 +118,7 @@ public class BTree<T extends Comparable<T>>{
             System.out.print(node.data + " ");
         }
     }
-
+    /*
     public static void main(String [] args) {
 
         int limit = 6;
@@ -134,7 +134,6 @@ public class BTree<T extends Comparable<T>>{
         }
         t.in_order();
     }
-
-
+    */
 
 }
