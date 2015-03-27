@@ -71,7 +71,16 @@ public class Student implements Comparable<Student> {
     @Override
     public String toString(){
         this.getCourseBTree().in_C_order();
-        return this.getStudent()+" "+this.getGPA()+" "+BTree.courses+"\n";
+
+        // make courses min to max
+        String [] s = BTree.courses.split(",");
+        String minToMax = "";
+        for(int i = s.length-1;i>=0;i--){
+            minToMax += s[i]+" ";
+        }
+
+        // return string
+        return this.getStudent()+" "+this.getGPA()+" "+minToMax+"\n";
     }
 }
 
