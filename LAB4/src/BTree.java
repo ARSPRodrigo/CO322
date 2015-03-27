@@ -88,7 +88,7 @@ public class BTree<T extends Comparable<T>>{
     public void in_order(BTreeNode<T> node) {
         if(node != null) {
             in_order(node.left);
-            System.out.print(" "+node.data);
+            System.out.print(node.data+" ");
             in_order(node.right);
         }
     }
@@ -102,7 +102,7 @@ public class BTree<T extends Comparable<T>>{
         if(node != null) {
             in_C_order(node.left);
             //System.out.print(" "+node.data);
-            courses += ","+node.data;
+            courses += node.data+",";
             in_C_order(node.right);
         }
     }

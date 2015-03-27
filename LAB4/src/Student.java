@@ -80,7 +80,7 @@ public class Student implements Comparable<Student> {
         }
 
         // return string
-        return this.getStudent()+" "+this.getGPA()+" "+minToMax+"\n";
+        return this.getStudent()+"\t"+this.getGPA()+"\n"+minToMax+"\n";
     }
 }
 
