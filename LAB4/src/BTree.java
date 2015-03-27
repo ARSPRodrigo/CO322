@@ -102,7 +102,7 @@ public class BTree<T extends Comparable<T>>{
         if(node != null) {
             in_C_order(node.left);
             //System.out.print(" "+node.data);
-            courses += " "+node.data;
+            courses += ","+node.data;
             in_C_order(node.right);
         }
     }
